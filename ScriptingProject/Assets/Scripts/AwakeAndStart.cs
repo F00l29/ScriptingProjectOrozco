@@ -5,13 +5,13 @@ using UnityEngine;
 public class AwakeAndStart : MonoBehaviour
 {
     
-    void Awake()
+    void Awake ()
     {
-        Debug.Log("Awake ccalled.");
+        Debug.Log("Awake called.");
     }
 
     
-    void Start()
+    void Start ()
     {
         Debug.Log("Start called.");
     }
